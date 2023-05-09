@@ -1,9 +1,9 @@
 ### custom parameters #####
 
-INPUT_DIR: '/zp1/data/mhu10/ProjectOMB2/SnakemakeWorkflow/SMK_DataSets/ChIPseq/'
-WORK_DIR: '/zp1/data/mhu10/ProjectOMB2/SnakemakeWorkflow/SMK_ChIPseq/'
+INPUT_DIR: '/zp1/data/ShareData/SnakemakeWorkflow/SMK_DataSets/ChIPseq/'        ## path to raw data
+WORK_DIR: '/zp1/data/ShareData/SnakemakeWorkflow/SMK_ChIPseq/'                  ## path to working directory
 
-BOWTIE2INDEX: '/zp1/data/mhu10/ProjectOMB2/SnakemakeWorkflow/SMK_Genomes/Bowtie2Index_premake/GRCm38_NCBI/GRCm38 '
+BOWTIE2INDEX: '/zp1/data/ShareData/SnakemakeWorkflow/SMK_Genomes/Bowtie2Index_premake/GRCm38_NCBI/GRCm38 '  ## path to BOWTIE2 index
 
 HOMER_MERGE_CTL: ['IIR1','IIR2','IIR3']
 
