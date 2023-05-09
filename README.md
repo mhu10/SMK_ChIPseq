@@ -24,7 +24,7 @@ git clone https://github.com/mhu10/SMK_ChIPseq path/to/workdir
 ```
 
 
-## Edit config file and workfileas needed
+## Edit config file and workfileas as needed
 
 ./SMK_ChIPseq/config/'config.yaml
 
