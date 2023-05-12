@@ -5,6 +5,6 @@ WORK_DIR: '/zp1/data/ShareData/SnakemakeWorkflow/ChIPseq_testing/'              
 
 BOWTIE2INDEX: '/zp1/data/ShareData/SnakemakeWorkflow/SMK_Genomes/Bowtie2Index_premake/GRCm38_NCBI/GRCm38 '  ## path to BOWTIE2 index
 
-HOMER_MERGE_CTL: ['IIR1','IIR2','IIR3']
+HOMER_MERGE_CTL: ['IIR1','IIR2','IIR3']  ## prefix of control samples
 
-HOMER_MERGE_TREATMENT: ['IRF1','IRF2','IRF3']
+HOMER_MERGE_TREATMENT: ['IRF1','IRF2','IRF3']  ## prefix of treatment samples
