@@ -8,7 +8,3 @@ BOWTIE2INDEX: '/zp1/data/ShareData/SnakemakeWorkflow/SMK_Genomes/Bowtie2Index_pr
 HOMER_MERGE_CTL: ['IIR1','IIR2','IIR3']
 
 HOMER_MERGE_TREATMENT: ['IRF1','IRF2','IRF3']
-
-NAME_CTL: 'IIR'
-
-NAME_TREATMENT: 'IRF'
