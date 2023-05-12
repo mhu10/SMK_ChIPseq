@@ -4,3 +4,11 @@ INPUT_DIR: '/zp1/data/ShareData/SnakemakeWorkflow/SMK_DataSets/ChIPseq/'        
 WORK_DIR: '/zp1/data/ShareData/SnakemakeWorkflow/ChIPseq_testing/'                  ## path to working directory
 
 BOWTIE2INDEX: '/zp1/data/ShareData/SnakemakeWorkflow/SMK_Genomes/Bowtie2Index_premake/GRCm38_NCBI/GRCm38 '  ## path to BOWTIE2 index
+
+HOMER_MERGE_CTL: ['IIR1','IIR2','IIR3']
+
+HOMER_MERGE_TREATMENT: ['IRF1','IRF2','IRF3']
+
+NAME_CTL: 'IIR'
+
+NAME_TREATMENT: 'IRF'
